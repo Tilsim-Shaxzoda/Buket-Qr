@@ -47,8 +47,8 @@ function moveNoBtn() {
     let currentY = match ? parseFloat(match[2]) : 0;
 
     const angle = Math.random() * Math.PI * 2;
-    const maxMoveX = Math.min(80, windowRect.width * 0.15);
-    const maxMoveY = Math.min(60, windowRect.height * 0.12);
+    const maxMoveX = Math.min(140, windowRect.width * 0.30);
+    const maxMoveY = Math.min(100, windowRect.height * 0.25);
     let newX = currentX + Math.cos(angle) * maxMoveX;
     let newY = currentY + Math.sin(angle) * maxMoveY;
 
